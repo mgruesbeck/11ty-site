@@ -12,7 +12,7 @@ Head of Operations
 
 Hello,
 
-I’m currently Head of Operations at Profluent, a startup developing machine learning models that can read and write biomolecules. I found operations as a prototype designer when I discovered designing user flows was analogous to designing business processes.
+I’m currently Head of Operations at [Profluent](https://www.profluent.bio/), a startup developing machine learning models that can read and write biomolecules. I found operations as a prototype designer when I discovered designing user flows was analogous to designing business processes.
 
 As a prototype designer I worked in a computer vision and NLP setting, first as an early [MetaMind](https://venturebeat.com/2016/04/04/salesforce-buys-hot-deep-learning-startup-metamind-services-shutting-down-may-4/) employee, and later as a founding member of [Salesforce Research](https://www.salesforceairesearch.com/). Prior to that, I founded a design agency in Napa Valley.
 
