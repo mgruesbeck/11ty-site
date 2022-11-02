@@ -1,0 +1,72 @@
+html {
+  overflow-x: hidden;
+}
+
+/* typography */
+@font-face {
+  font-family: 'cartoon4sports';
+  src: url('../fonts/cartoon_4_sports-webfont.woff2') format('woff2'),
+       url('../fonts/cartoon_4_sports-webfont.woff') format('woff');
+}
+
+.cartoon4sports {
+  font-family: cartoon4sports;
+  font-size: 8rem;
+}
+
+@font-face {
+  font-family: 'monsterocity';
+  src: url('../fonts/monsterocity-webfont.woff2') format('woff2'),
+       url('../fonts/monsterocity-webfont.woff') format('woff');
+}
+
+.monsterocity {
+  font-family: monsterocity;
+  font-size: 8rem;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Inconsolata', monospace;
+  font-size: clamp(.8rem, 4vmin, 1.2rem);
+  line-height: 1.45;
+  margin: 0 0 8% 0;
+}
+
+body> :is(h1, h2, h3, h4, h5, h6, p, ul, ol, header, footer, section, blockquote, article, hr) {
+  box-sizing: border-box;
+  margin-left: 8%;
+  max-width: 30rem;
+  width: 84%;
+}
+
+body> :is(ul, li) {
+  padding-left: 1.6;
+}
+
+a {
+  color: rgba(30, 174, 219, 0.8);
+}
+
+/* gradient */
+@keyframes pulse {
+  0% {
+    background-size: 100%;
+  }
+
+  100% {
+    background-size: 400%;
+  }
+}
+
+
+/* media queries */
+@media (min-width: 550px) {}
+
+@media (min-width: 750px) {
+  body> :is(h1, h2, h3, h4, h5, h6, p, ul, ol, header, footer, section, blockquote, article, hr) {
+    margin-left: calc(8% + 50px);
+  }
+}
+
+@media (min-width: 1200px) {}

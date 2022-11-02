@@ -1,0 +1,46 @@
+## Links
+- https://www.salesforce.com/news/stories/introducing-the-ai-economist-why-salesforce-researchers-are-applying-machine-learning-to-economics/
+- https://www.youtube.com/watch?v=4iQUcGyQhdA&t=28s
+
+
+### Market panel to big/offer
+Resources, average price, buy, sell, set per turn, what does it look like when an order is executed
+
+### Tax rates panel
+
+Income tax on coin received from building structure. income tax: deducted from the coin received for building a house (i.e. raw reward = 10, tax = 2, agent gets 8).
+  
+Trade tax the buyer pays the trade tax to the government. Different by agent and resource.
+
+Wealth tax (optional) would basically be a tax on the coin endowment of an agents, e.g., each tick, an agent has to give 2 coins to the government.
+
+### Instructions
+Resource change log (Harvested/Bought/Sold)
+
+- All taxes are personally set per agent and on individual goods — stone and wood 
+
+### Resources
+Wood
+Stone
+
+### Assets
+House
+Coin
+
+### Agent rules
+-Building a house requires 1 unit of stone and wood each and get 10 coin for each house built
+-Houses become walls which only block others agents
+-Agent goal is to maximize house building and coins
+
+### Planner rules
+Taxation
+Subsidies
+
+How are subsidies decided?
+How is tax decided, individually, or collectively?
+What is the gini index? "maximal income equality"
+What can the planner see?
+
+### Trade
+What are the rules of trade?
+
